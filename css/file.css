@@ -50,7 +50,10 @@ header figure img:nth-child(1){
 
 header figure img:nth-child(2){
     margin-top: 15px;
-    vertical-align: top;
+}
+
+header nav ul li a img{
+    vertical-align: middle;
 }
 
 nav{
@@ -58,13 +61,8 @@ nav{
     margin-top: 10px;
 }
 
-li{
+nav ul li{
     float: left;
-    vertical-align: middle;
-}
-
-header nav ul li:nth-child(2){
-    margin: 0px 10px;
 }
 
 header nav ul li a{
@@ -72,8 +70,12 @@ header nav ul li a{
     padding: 11px;
 }
 
+header nav ul li:nth-child(2) a{
+    padding: 10px 11px 9px 11px;
+}
+
 header nav ul li a:hover{
-    background-color: #E9E9E9;
+    background-color: rgba(233, 233, 233, 0.1);
 }
 
 header nav ul li img{
@@ -97,7 +99,7 @@ header nav ul span{
     height: 19px;
     width: 19px;
     text-align: center;
-    right: 12.3%;
+    right: 5%;
 }
 
 /* --------------------- section 1 --------------------- */
@@ -197,4 +199,181 @@ header nav ul span{
 .squares{
     margin-top: 21px;
     text-align: center;
+}
+
+.upper-square{
+    text-align: center;
+    margin-bottom: 1px;
+    background-color: #FFFFFF;
+    padding: 28px 79px 27px 80px;
+}
+
+.lower-square{
+    background-color: #FFFFFF;
+}
+
+.square-one, .square-two, .square-three, .square-four{
+    float: left;
+    width: 23.43%;
+}
+
+.square-one, .square-two, .square-three{
+    margin-right: 24px;
+}
+
+.inner-circle{
+    height: 91px;
+    width: 91px;
+    border: 2px solid #FFFFFF;
+    border-radius: 50%;
+}
+
+.inner-circle p:nth-child(1){
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: normal;
+    color: #363F45;
+    margin-top: 14px;
+}
+
+.inner-circle p:nth-child(2){
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: normal;
+    color: #363F45;
+}
+
+.outer-circle{
+    width: 111px;
+    height: 111px;
+}
+
+.upper-square .outer-circle{
+    border: 10px solid #8AC249;
+    border-radius: 50%;
+    background-color: #F6EFD2;
+}
+
+.lower-square{
+    position: relative;
+}
+
+.numbers{
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    font-size: 34px;
+    line-height: 41px;
+    color: #E1E2E9;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    margin: 9px 22px 7px 0px;
+}
+
+.text{
+    font-family: 'Lato', sans-serif;;
+    color: #363F45;
+    font-size: 16px;
+    line-height: 19px;
+    display: inline-block;
+    margin: 20px 0px;
+}
+
+/* --------------------- Progress Bar --------------------- */
+.progress-bar{
+    margin-top: 31px;
+}
+
+.progress-bar .container{
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    padding: 2px 0px 2px 2px;
+}
+
+.progress-bar .container p{
+    width: 299px;
+    height: 5px;
+    background-color: #D4C69B;
+    border-radius: 5px;
+}
+
+/* --------------------- section 3 --------------------- */
+.sec3{
+    margin-top: 69px;
+}
+
+.left-box, .right-box{
+    width: 50%;
+}
+
+.left-box-heading{
+    padding: 18px 30px 17px;
+    margin-bottom: 1px;
+    background-color: #FFFFFF;
+}
+
+.left-box-heading h6{
+    display: inline-block;
+    font-family: 'Quicksand', sans-serif;
+    color: #363F45;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 19px;
+}
+
+.left-box-heading img{
+    float: right;
+}
+
+.checkbox{
+    height: 17px;
+    width: 17px;
+    background-color: #FFFFFF;
+    border: 1px solid #CED4D9;
+    display: inline-block;
+}
+
+.date{
+    float: right;
+}
+
+.date p:nth-child(1){
+    margin-right: 30px;
+    display: inline-block;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: #919599;
+}
+
+.left-box ul li:nth-child(2){
+    background-color: #E1F5E3;
+}
+
+.left-box ul li span{
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: #919599;
+}
+
+.left-box ul li:nth-child(2) span{
+    color: #4BAE4F;
+}
+
+.left-box ul li:nth-child(2) p{
+    display: inline-block;
+}
+
+.left-box ul li p:nth-child(3){
+    float: right;
+}
+
+.left-box ul li{
+    padding: 18 px 30px 17px;
+    background-color: #FFFFFF;
+    margin-bottom: 1px;
+
 }
